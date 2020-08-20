@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+
+    <link rel="stylesheet" href="static/frontend/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+</head>
+<body id="main-body">
+    <div class="container">
+        <main>
+            <div class="form-container">
+                <form id="task-form">         
+                    <label for="input-block">Create Tasks</label>
+                    <div class="input-block">
+                        <input type="text" id="title" class="form-input" name="title" placeholder="Add tasks">
+                        <input type="submit" class="btn" id="submit">
+                    </div>     
+                </form>
+            </div>
+            <div id="task-container">
+                <div class="title-container">
+                    <strong class="title">title</strong>
+                    <button class="btn  edit">Edit </button>
+                    <button class="btn  delete">Delete</button>
+                </div>
+
+                <div class="title-container">
+                    <strong class="title">title</strong>
+                    <button class="btn  edit">Edit </button>
+                    <button class="btn  delete">Delete</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="static/frontend/js/main.js"></script>
+</body>
+</html>
